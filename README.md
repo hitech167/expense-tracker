@@ -110,18 +110,6 @@ dist/
 run.bat / run.sh       build and start in one step
 ```
 
-## Publish it on GitHub
-
-```bash
-git init
-git add .
-git commit -m "Expense Tracker: budget alerts, charts and currency choice"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/expense-tracker.git
-git push -u origin main
-```
-
-Create the empty `expense-tracker` repository on GitHub first. The `.gitignore` keeps compiled files, `.jar` files and your `data` folder out of the repository. To let others download the app without building it, open the repository on GitHub, go to **Releases**, click **Create a new release**, and attach `dist/expense-tracker.jar`.
 
 ## Ideas for the future
 
