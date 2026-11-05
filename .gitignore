@@ -1,0 +1,20 @@
+# Compiled output
+out/
+build/
+*.class
+*.jar
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Your personal expense data (do not publish)
+data/
